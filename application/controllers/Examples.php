@@ -72,7 +72,7 @@ class Examples extends CI_Controller {
 
 			$this->_example_output($output);
 	}
-
+	
 	public function udalost()
 	{
 			$crud = new grocery_CRUD();
