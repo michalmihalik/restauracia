@@ -14,7 +14,7 @@ class Examples extends CI_Controller {
 
 	public function _example_output($output = null)
 	{
-		$this->load->view('example.php',(array)$output);
+		$this->load->view('restauracia.php',(array)$output);
 	}
 
 	public function menu()
@@ -72,7 +72,7 @@ class Examples extends CI_Controller {
 
 			$this->_example_output($output);
 	}
-	
+
 	public function udalost()
 	{
 			$crud = new grocery_CRUD();
